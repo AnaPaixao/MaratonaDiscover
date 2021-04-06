@@ -7,8 +7,6 @@
 
 ## 🚀 Tecnologias
 
-Tecnologias utilizadas:
-
 - HTML
 - CSS
 - JavaScript
