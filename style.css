@@ -1,8 +1,9 @@
 /*============ Global ===============*/
 :root {
     --dark-blue: #363f5f;
-    --green: #49AA26;
-    --light-green: #3DD705;
+    --chinese-violet: #6d597a;
+    --rose-dust: #b56576;
+    --candy-pink: #e56b6f;
     --red: #E92929;
 }
 
@@ -50,12 +51,12 @@ h2 {
 /*============ Links & Buttons ===============*/
 
 a {
-    color: var(--green);
+    color: var(--candy-pink);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--light-green);
+    color: #eaac8b;
 }
 
 button {
@@ -65,7 +66,7 @@ button {
     border: none;
 
     color: #FFF;
-    background: var(--green);
+    background: var(--chinese-violet);
 
     padding: 0;
 
@@ -75,7 +76,7 @@ button {
 }
 
 button:hover {
-    background: var(--light-green);
+    background: var(--dark-blue);
 }
 
 .button.new {
@@ -103,7 +104,7 @@ button:hover {
 
 /*============ Header ===============*/
 header {
-    background: #2D4A22;
+    background: var(--chinese-violet);
     padding: 2rem 0 10rem;
     text-align: center;
 }
@@ -150,7 +151,7 @@ header {
 }
 
 .card.total {
-    background: var(--green);
+    background: var(--rose-dust);
     color: #FFF;
 }
 
